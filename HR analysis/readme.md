@@ -1,4 +1,3 @@
-```markdown
 # HR Analytics Data Warehouse Project
 
 A MySQL-based HR analytics warehouse project designed to clean, normalize, and analyze employee data for actionable insights on workforce structure, attrition, pay, and organizational demographics.
@@ -7,7 +6,7 @@ A MySQL-based HR analytics warehouse project designed to clean, normalize, and a
 
 ## Project Overview
 
-This project transforms a flat, redundant HR employee dataset into a star schema-based data warehouse to support advanced querying, analytics, and HR reporting. It supports efficient answers to typical HR questions regarding employee details, roles, compensation, departmental distribution, and attrition using optimized SQL and window functions[file:5].
+This project transforms a flat, redundant HR employee dataset into a star schema-based data warehouse to support advanced querying, analytics, and HR reporting. It supports efficient answers to typical HR questions regarding employee details, roles, compensation, departmental distribution, and attrition using optimized SQL and window functions
 
 ---
 
@@ -81,6 +80,3 @@ Refer to [`queries.sql`](./HR%20analysis/queries.sql) for all SQL solutions and 
 - Import data via provided scripts after setting up MySQL environment
 - Run analytical SQL queries as per requirement
 - Extend with your own business questions or visualization tools
-
----
-```
