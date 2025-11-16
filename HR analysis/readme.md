@@ -23,7 +23,8 @@ The schema includes:
 
 See the ER diagram in this directory for a visual representation:
 
-![ER Diagram](./HR%20analysis/ER.jpg)
+![ER Diagram](https://github.com/RalF-in/mySQL_Projects/blob/main/HR%20analysis/ER.png)
+
 
 ---
 
@@ -36,8 +37,8 @@ See the ER diagram in this directory for a visual representation:
      USE hranalysis;
      ```
 2. **Table Formation & Normalization**  
-   - Execute [`table_formation.sql`](./HR%20analysis/table_formation.sql) to:
-     - Import flat data from [`Dataset_HR_analysis.csv`](./HR%20analysis/Dataset_HR_analysis.csv)
+   - Execute [`table_formation.sql`](https://github.com/RalF-in/mySQL_Projects/blob/main/HR%20analysis/table_formation.sql) to:
+     - Import flat data from [`Dataset_HR_analysis.csv`](https://github.com/RalF-in/mySQL_Projects/blob/main/HR%20analysis/Dataset_HR_analysis.csv)
      - Create all star schema tables (dimensions and fact)
      - Populate dimension tables with unique entries via `INSERT ... SELECT DISTINCT`
      - Remove duplicate data using window functions/row numbers
@@ -49,7 +50,7 @@ See the ER diagram in this directory for a visual representation:
 
 ## Analytical Queries
 
-A complete set of business-oriented queries is provided in [`queries.sql`](./HR%20analysis/queries.sql), including:
+A complete set of business-oriented queries is provided in [`queries.sql`](https://github.com/RalF-in/mySQL_Projects/blob/main/HR%20analysis/queries.sql), including:
 
 | Question                                                        | Query Example                                                              |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -61,19 +62,16 @@ A complete set of business-oriented queries is provided in [`queries.sql`](./HR%
 | List employees with >5 years' total working experience          | Conditional queries on `total_working_years`                                |
 | Count employees in labeled age groups                           | `CASE WHEN` logic for banding ages                                          |
 
-Refer to [`queries.sql`](./HR%20analysis/queries.sql) for all SQL solutions and window function usage.
+Refer to [`queries.sql`](https://github.com/RalF-in/mySQL_Projects/blob/main/HR%20analysis/queries.sql) for all SQL solutions and window function usage.
 
 ---
 
 ## Files and Directory Structure
 
-- [`Dataset_HR_analysis.csv`](./HR%20analysi/Dataset_HR_analysis.csv)
-- [`table_formation.sql`](./HR%20analysis/table_formation.sql): Script for table creation, normalization, and loading
-- [`queries.sql`](./HR%20analysis/queries.sql): All business, ranking, and analytics queries
-- [`ER.jpg`](./HR%20analysis/ER.jpg): Star schema ER diagram
-- [`HR-Analytics-Project-Requirements.pdf`](./HR%20analysis/HR-Analytics_Project-Requirements.pdf): Project requirements and design notes
-
----
+- [`Dataset_HR_analysis.csv`](https://github.com/RalF-in/mySQL_Projects/blob/main/HR%20analysis/Dataset_HR_analysis.csv)
+- [`table_formation.sql`](https://github.com/RalF-in/mySQL_Projects/blob/main/HR%20analysis/table_formation.sql): Script for table creation, normalization, and loading
+- [`queries.sql`](https://github.com/RalF-in/mySQL_Projects/blob/main/HR%20analysis/queries.sql): All business, ranking, and analytics queries
+- [`ER.png`](https://github.com/RalF-in/mySQL_Projects/blob/main/HR%20analysis/ER.png): Star schema ER diagram
 
 ## Usage
 
