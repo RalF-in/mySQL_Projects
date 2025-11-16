@@ -8,7 +8,7 @@ FROM
         JOIN
     dim_brand b ON f.brand_id = b.brand_id
 GROUP BY brand_name
-ORDER BY brand_name
+ORDER BY brand_name;
 
 -- 2. Top 5 Smartphones by Rating & Price.
 SELECT 
@@ -24,7 +24,7 @@ FROM
         JOIN
     dim_model m ON f.model_id = m.model_id
 ORDER BY avg_rating DESC , price DESC
-LIMIT 5
+LIMIT 5;
 
 -- 3. Smartphone Price Distribution by Brand and OS.
 SELECT 
@@ -40,7 +40,7 @@ FROM
         JOIN
     dim_os o ON f.os_id = o.os_id
 GROUP BY brand_name , os
-ORDER BY brand_name , os ASC
+ORDER BY brand_name , os ASC;
 
 -- 4. Count of Smartphones by Brand and Processor Speed ⚡
 select brand_name, processor_speed, count(smartphone_id) as total_phones

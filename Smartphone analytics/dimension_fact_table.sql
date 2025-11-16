@@ -188,4 +188,7 @@ from filtered fl
 end $$
 delimiter ;
 call FactTable();
-select * from fact_table;
+SELECT 
+    *
+FROM
+    fact_table;

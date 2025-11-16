@@ -103,14 +103,14 @@ join dim_employee e on f.employee_id = e.employee_id
 
 select * from temp where ranking in (1, 2, 3);
 
--- 12. Top 3 earners in each department using row number.
+-- 12. Top 3 earners in each department.
 with temp as(
 select department_name, employee_name, monthly_rate, row_number() over(partition by department_name order by monthly_rate desc) as ranking
 from dim_department d join fact_table f on d.department_id = f.department_id
 join dim_employee e on f.employee_id = e.employee_id
 )
-
-select * from temp where ranking in (1, 2, 3);
+select * from temp where ranking in (1, 2, 3)
+order by department_name, monthly_rate desc;
 
 -- 13. Total and average monthly income by job role.
 SELECT 
