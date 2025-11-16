@@ -24,7 +24,8 @@ Key tables and relationships used in this project:
   - `territory`: Geographic segmentation.
 
 Refer to the ER diagram below for detailed schema structure:
-![ER Diagram](Sales%20Project/ER.png)
+![ER Diagram](https://github.com/RalF-in/mySQL_Projects/blob/main/Sales%20Project/ER.png)
+
 
 ---
 
@@ -56,7 +57,7 @@ All required analytics and reporting needs are addressed in `queries.sql`. Examp
 | Repeat customers and return rates             | Customer/product-level summaries and percentages                    |
 | Stored procedures for dynamic searches        | By customer, date range, or product category                        |
 
-Refer to the full query codes and advanced analytics in [`queries.sql`](./Sales%20Project/queries.sql).
+Refer to the full query codes and advanced analytics in [`queries.sql`](https://github.com/RalF-in/mySQL_Projects/blob/main/Sales%20Project/queries.sql)
 
 ---
 
