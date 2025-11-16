@@ -27,7 +27,7 @@ Major tables:
 
 See the ER diagram:
 
-![ER Diagram](https://github.com/RalF-in/mySQL_Projects/raw/main/Smartphone%20analytics/ER.jpg)
+![ER Diagram](https://github.com/RalF-in/mySQL_Projects/raw/main/Smartphone%20analytics/ER.png)
 
 ---
 
@@ -64,11 +64,10 @@ Example analysis includes:
 
 ## Files and Directory Structure
 
-- [`dataset_smartphones.csv`](https://github.com/RalF-in/mySQL_Projects/blob/main/Smarphone%20analytics/dataset_smartphones.csv): Main device data source
+- [`dataset_smartphones.csv`](https://github.com/RalF-in/mySQL_Projects/blob/main/Smartphone%20analytics/dataset_smartphones.csv): Main device data source
 - [`dimension_fact_table.sql`](https://github.com/RalF-in/mySQL_Projects/blob/main/Smartphone%20analytics/dimension_fact_table.sql): All table creation and ETL operations
 - [`Queries.sql`](https://github.com/RalF-in/mySQL_Projects/blob/main/Smartphone%20analytics/Queries.sql): Research, analytics, and reporting queries
-- [`ER.jpg`](https://github.com/RalF-in/mySQL_Projects/raw/main/Smartphone%20analytics/ER.jpg): Data model ER diagram
-- [`Mobile-Analytics-Project.pdf`](https://github.com/RalF-in/mySQL_Projects/blob/main/Smartphone%20analytics/Mobile-Analytics-Project.pdf): Project requirements and design notes
+- [`ER.png`](https://github.com/RalF-in/mySQL_Projects/raw/main/Smartphone%20analytics/ER.png): Data model ER diagram
 
 ## Usage
 
