@@ -1,3 +1,4 @@
+```markdown
 # Sales Data Warehouse Project
 
 A comprehensive MySQL-based sales analytics project designed to centralize, clean, and analyze business sales data using a robust star schema and powerful analytical queries.
@@ -78,3 +79,4 @@ Refer to the full query codes and advanced analytics in [`queries.sql`](./Sales%
 - `Territory.csv`
 
 All data is synthetic or anonymized for educational use.
+```
