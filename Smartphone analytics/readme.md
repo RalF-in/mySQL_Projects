@@ -1,4 +1,3 @@
-```markdown
 # Smartphone Analytics Data Warehouse Project
 
 A MySQL-based smartphone analytics data warehouse designed for efficient querying and deep analysis of mobile device features, brand trends, and performance metrics.
@@ -76,4 +75,3 @@ Example analysis includes:
 - Run ETL scripts to load and normalize data.
 - Execute sample and custom queries from the provided scripts.
 - Analyze, benchmark, or visualize device features and trends as needed.
-```
